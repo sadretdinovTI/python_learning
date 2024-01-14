@@ -11,5 +11,8 @@ for i in range(ger_count):
     list_ger.add(ger_name)
 
 sym_diff = list_eng.symmetric_difference(list_ger)
-print(len(sym_diff))
+if len(sym_diff) == 0:
+    print("NO")
+else:
+    print(len(sym_diff))
 

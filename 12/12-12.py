@@ -1,4 +1,4 @@
-word = input()
+word = input().lower()
 max = 0
 for i in range(len(word)):
     if word.count(word[i]) > max:
